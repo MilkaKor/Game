@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="mainWindow" alignment="CENTER" prefHeight="464.0" prefWidth="419.0" spacing="20.0" style="-fx-background-color: #d2d1ff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.HelloController">
+
+    <children>
+        <Pane fx:id="mainPane" prefHeight="374.0" prefWidth="419.0" />
+        <HBox prefHeight="0.0" prefWidth="315.0">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <Button alignment="CENTER" mnemonicParsing="false" onAction="#initialize" text="New game" textAlignment="CENTER">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin></Button>
+            </children>
+        </HBox>
+    </children>
+</VBox>
